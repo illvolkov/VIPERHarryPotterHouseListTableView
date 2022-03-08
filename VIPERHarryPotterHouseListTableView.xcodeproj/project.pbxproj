@@ -19,6 +19,7 @@
 		046D90E827D801F500026FA7 /* HouseListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90E727D801F500026FA7 /* HouseListEntity.swift */; };
 		046D90EB27D8026700026FA7 /* HouseListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90EA27D8026700026FA7 /* HouseListConfigurator.swift */; };
 		046D90F327D8045000026FA7 /* StudentSlytherinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90F227D8045000026FA7 /* StudentSlytherinView.swift */; };
+		046D90F527D804B200026FA7 /* StudentSlytherinPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90F427D804B200026FA7 /* StudentSlytherinPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		046D90E727D801F500026FA7 /* HouseListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListEntity.swift; sourceTree = "<group>"; };
 		046D90EA27D8026700026FA7 /* HouseListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListConfigurator.swift; sourceTree = "<group>"; };
 		046D90F227D8045000026FA7 /* StudentSlytherinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSlytherinView.swift; sourceTree = "<group>"; };
+		046D90F427D804B200026FA7 /* StudentSlytherinPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSlytherinPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 		046D90EE27D803F100026FA7 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				046D90F427D804B200026FA7 /* StudentSlytherinPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				046D90C627D7FA1600026FA7 /* SceneDelegate.swift in Sources */,
 				046D90F327D8045000026FA7 /* StudentSlytherinView.swift in Sources */,
 				046D90E227D8011B00026FA7 /* HouseListPresenter.swift in Sources */,
+				046D90F527D804B200026FA7 /* StudentSlytherinPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
