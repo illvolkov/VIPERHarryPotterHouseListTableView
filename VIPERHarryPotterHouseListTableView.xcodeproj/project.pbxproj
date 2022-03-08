@@ -16,6 +16,7 @@
 		046D90E227D8011B00026FA7 /* HouseListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90E127D8011B00026FA7 /* HouseListPresenter.swift */; };
 		046D90E427D8017900026FA7 /* HouseListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90E327D8017900026FA7 /* HouseListInteractor.swift */; };
 		046D90E627D801BB00026FA7 /* HouseListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90E527D801BB00026FA7 /* HouseListRouter.swift */; };
+		046D90E827D801F500026FA7 /* HouseListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90E727D801F500026FA7 /* HouseListEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		046D90E127D8011B00026FA7 /* HouseListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListPresenter.swift; sourceTree = "<group>"; };
 		046D90E327D8017900026FA7 /* HouseListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListInteractor.swift; sourceTree = "<group>"; };
 		046D90E527D801BB00026FA7 /* HouseListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListRouter.swift; sourceTree = "<group>"; };
+		046D90E727D801F500026FA7 /* HouseListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 		046D90E027D7FCF300026FA7 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				046D90E727D801F500026FA7 /* HouseListEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				046D90C427D7FA1600026FA7 /* AppDelegate.swift in Sources */,
 				046D90E427D8017900026FA7 /* HouseListInteractor.swift in Sources */,
 				046D90E627D801BB00026FA7 /* HouseListRouter.swift in Sources */,
+				046D90E827D801F500026FA7 /* HouseListEntity.swift in Sources */,
 				046D90C627D7FA1600026FA7 /* SceneDelegate.swift in Sources */,
 				046D90E227D8011B00026FA7 /* HouseListPresenter.swift in Sources */,
 			);
