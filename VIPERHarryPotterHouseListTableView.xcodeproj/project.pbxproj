@@ -20,6 +20,7 @@
 		046D90EB27D8026700026FA7 /* HouseListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90EA27D8026700026FA7 /* HouseListConfigurator.swift */; };
 		046D90F327D8045000026FA7 /* StudentSlytherinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90F227D8045000026FA7 /* StudentSlytherinView.swift */; };
 		046D90F527D804B200026FA7 /* StudentSlytherinPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90F427D804B200026FA7 /* StudentSlytherinPresenter.swift */; };
+		046D90F927D8052100026FA7 /* StudentSlytherinInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90F827D8052100026FA7 /* StudentSlytherinInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		046D90EA27D8026700026FA7 /* HouseListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListConfigurator.swift; sourceTree = "<group>"; };
 		046D90F227D8045000026FA7 /* StudentSlytherinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSlytherinView.swift; sourceTree = "<group>"; };
 		046D90F427D804B200026FA7 /* StudentSlytherinPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSlytherinPresenter.swift; sourceTree = "<group>"; };
+		046D90F827D8052100026FA7 /* StudentSlytherinInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSlytherinInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 		046D90EF27D803FF00026FA7 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				046D90F827D8052100026FA7 /* StudentSlytherinInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				046D90EB27D8026700026FA7 /* HouseListConfigurator.swift in Sources */,
 				046D90C427D7FA1600026FA7 /* AppDelegate.swift in Sources */,
 				046D90E427D8017900026FA7 /* HouseListInteractor.swift in Sources */,
+				046D90F927D8052100026FA7 /* StudentSlytherinInteractor.swift in Sources */,
 				046D90E627D801BB00026FA7 /* HouseListRouter.swift in Sources */,
 				046D90E827D801F500026FA7 /* HouseListEntity.swift in Sources */,
 				046D90C627D7FA1600026FA7 /* SceneDelegate.swift in Sources */,
