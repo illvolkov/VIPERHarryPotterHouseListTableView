@@ -18,6 +18,7 @@
 		046D90E627D801BB00026FA7 /* HouseListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90E527D801BB00026FA7 /* HouseListRouter.swift */; };
 		046D90E827D801F500026FA7 /* HouseListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90E727D801F500026FA7 /* HouseListEntity.swift */; };
 		046D90EB27D8026700026FA7 /* HouseListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90EA27D8026700026FA7 /* HouseListConfigurator.swift */; };
+		046D90F327D8045000026FA7 /* StudentSlytherinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90F227D8045000026FA7 /* StudentSlytherinView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		046D90E527D801BB00026FA7 /* HouseListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListRouter.swift; sourceTree = "<group>"; };
 		046D90E727D801F500026FA7 /* HouseListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListEntity.swift; sourceTree = "<group>"; };
 		046D90EA27D8026700026FA7 /* HouseListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListConfigurator.swift; sourceTree = "<group>"; };
+		046D90F227D8045000026FA7 /* StudentSlytherinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSlytherinView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				046D90E927D8024C00026FA7 /* Configurators */,
 				046D90DB27D7FCA100026FA7 /* HouseListModule */,
+				046D90EC27D803C200026FA7 /* StudentSlytherinModule */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -168,6 +171,54 @@
 				046D90EA27D8026700026FA7 /* HouseListConfigurator.swift */,
 			);
 			path = Configurators;
+			sourceTree = "<group>";
+		};
+		046D90EC27D803C200026FA7 /* StudentSlytherinModule */ = {
+			isa = PBXGroup;
+			children = (
+				046D90ED27D803EB00026FA7 /* View */,
+				046D90EE27D803F100026FA7 /* Presenter */,
+				046D90EF27D803FF00026FA7 /* Interactor */,
+				046D90F027D8040700026FA7 /* Router */,
+				046D90F127D8040F00026FA7 /* Entity */,
+			);
+			path = StudentSlytherinModule;
+			sourceTree = "<group>";
+		};
+		046D90ED27D803EB00026FA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				046D90F227D8045000026FA7 /* StudentSlytherinView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		046D90EE27D803F100026FA7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		046D90EF27D803FF00026FA7 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		046D90F027D8040700026FA7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		046D90F127D8040F00026FA7 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +299,7 @@
 				046D90E627D801BB00026FA7 /* HouseListRouter.swift in Sources */,
 				046D90E827D801F500026FA7 /* HouseListEntity.swift in Sources */,
 				046D90C627D7FA1600026FA7 /* SceneDelegate.swift in Sources */,
+				046D90F327D8045000026FA7 /* StudentSlytherinView.swift in Sources */,
 				046D90E227D8011B00026FA7 /* HouseListPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
