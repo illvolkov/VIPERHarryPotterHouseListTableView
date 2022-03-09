@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jk8-Yx-jAR">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--House List View-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HouseListView" customModule="VIPERHarryPotterHouseListTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="evS-CI-YdM"/>
+                    <connections>
+                        <segue destination="eOx-tg-1O5" kind="show" identifier="HouseToSlytherinList" id="41g-Hu-SLQ"/>
+                        <segue destination="Oz2-Ez-ZSe" kind="show" identifier="HouseToGryffindorList" id="07T-em-mBU"/>
+                        <segue destination="DB0-Oe-zSd" kind="show" identifier="HouseToHufflepuffList" id="qVA-Ud-Jk6"/>
+                        <segue destination="CQf-Ee-fMN" kind="show" identifier="HouseToRavenclawList" id="4RG-k3-Bc8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1022" y="98"/>
+        </scene>
+        <!--Student Slytherin View-->
+        <scene sceneID="9Vk-8E-fjf">
+            <objects>
+                <viewController id="eOx-tg-1O5" customClass="StudentSlytherinView" customModule="VIPERHarryPotterHouseListTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wva-uQ-Cus">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ckw-1m-XVD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="IT4-mr-KdL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aaz-1y-xdm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-616" y="966"/>
+        </scene>
+        <!--Student Gryffindor View-->
+        <scene sceneID="Laq-3z-tIz">
+            <objects>
+                <viewController id="Oz2-Ez-ZSe" customClass="StudentGryffindorView" customModule="VIPERHarryPotterHouseListTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k9X-wn-aOq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Fc9-ha-ode"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2nJ-iK-YLY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VeH-wc-Sj0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="457" y="966"/>
+        </scene>
+        <!--Student Hufflepuff View-->
+        <scene sceneID="tAG-6r-pQD">
+            <objects>
+                <viewController id="DB0-Oe-zSd" customClass="StudentHufflepuffView" customModule="VIPERHarryPotterHouseListTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dey-xF-OUM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Mus-En-AJM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AZO-eD-xT7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MhP-UB-YcK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1564" y="966"/>
+        </scene>
+        <!--Student Ravenclaw View-->
+        <scene sceneID="sqM-xo-qhr">
+            <objects>
+                <viewController id="CQf-Ee-fMN" customClass="StudentRavenclawView" customModule="VIPERHarryPotterHouseListTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kD5-uk-DXb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="8Pr-fM-sCI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="C3n-BE-NQt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jq3-bO-9nl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2641" y="966"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="A5x-KS-cv2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jk8-Yx-jAR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ulA-t0-KRB">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="XuM-Cs-xif"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pLc-dx-dmN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
