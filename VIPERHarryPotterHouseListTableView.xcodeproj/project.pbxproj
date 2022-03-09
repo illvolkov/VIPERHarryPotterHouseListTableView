@@ -40,6 +40,7 @@
 		046D912A27D8A2FB00026FA7 /* StudentRavenclawPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D912927D8A2FB00026FA7 /* StudentRavenclawPresenter.swift */; };
 		046D912D27D8A33500026FA7 /* StudentRavenclawInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D912C27D8A33500026FA7 /* StudentRavenclawInteractor.swift */; };
 		046D913027D8A36D00026FA7 /* StudentRavenclawRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D912F27D8A36D00026FA7 /* StudentRavenclawRouter.swift */; };
+		046D913327D8A39B00026FA7 /* StudentRavenclawEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D913227D8A39B00026FA7 /* StudentRavenclawEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		046D912927D8A2FB00026FA7 /* StudentRavenclawPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRavenclawPresenter.swift; sourceTree = "<group>"; };
 		046D912C27D8A33500026FA7 /* StudentRavenclawInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRavenclawInteractor.swift; sourceTree = "<group>"; };
 		046D912F27D8A36D00026FA7 /* StudentRavenclawRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRavenclawRouter.swift; sourceTree = "<group>"; };
+		046D913227D8A39B00026FA7 /* StudentRavenclawEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRavenclawEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -380,6 +382,7 @@
 		046D912427D8A28300026FA7 /* StudentRavenclawModule */ = {
 			isa = PBXGroup;
 			children = (
+				046D913127D8A38E00026FA7 /* Entity */,
 				046D912E27D8A35C00026FA7 /* Router */,
 				046D912B27D8A32400026FA7 /* Interactor */,
 				046D912827D8A2E800026FA7 /* Presenter */,
@@ -418,6 +421,14 @@
 				046D912F27D8A36D00026FA7 /* StudentRavenclawRouter.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		046D913127D8A38E00026FA7 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				046D913227D8A39B00026FA7 /* StudentRavenclawEntity.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -515,6 +526,7 @@
 				046D90F327D8045000026FA7 /* StudentSlytherinView.swift in Sources */,
 				046D912A27D8A2FB00026FA7 /* StudentRavenclawPresenter.swift in Sources */,
 				046D911E27D8A13500026FA7 /* StudentHufflepuffRouter.swift in Sources */,
+				046D913327D8A39B00026FA7 /* StudentRavenclawEntity.swift in Sources */,
 				046D90E227D8011B00026FA7 /* HouseListPresenter.swift in Sources */,
 				046D910927D895EB00026FA7 /* StudentGryffindorInteractor.swift in Sources */,
 				046D910C27D8963800026FA7 /* StudentGryffindorRouter.swift in Sources */,
