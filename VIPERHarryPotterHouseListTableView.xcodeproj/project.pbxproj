@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		046D90C427D7FA1600026FA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90C327D7FA1600026FA7 /* AppDelegate.swift */; };
 		046D90C627D7FA1600026FA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90C527D7FA1600026FA7 /* SceneDelegate.swift */; };
-		046D90C827D7FA1600026FA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90C727D7FA1600026FA7 /* ViewController.swift */; };
+		046D90C827D7FA1600026FA7 /* HouseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90C727D7FA1600026FA7 /* HouseListView.swift */; };
 		046D90CB27D7FA1600026FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046D90C927D7FA1600026FA7 /* Main.storyboard */; };
 		046D90CD27D7FA1800026FA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046D90CC27D7FA1800026FA7 /* Assets.xcassets */; };
 		046D90D027D7FA1800026FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046D90CE27D7FA1800026FA7 /* LaunchScreen.storyboard */; };
+		046D90E227D8011B00026FA7 /* HouseListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90E127D8011B00026FA7 /* HouseListPresenter.swift */; };
+		046D90E427D8017900026FA7 /* HouseListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90E327D8017900026FA7 /* HouseListInteractor.swift */; };
+		046D90E627D801BB00026FA7 /* HouseListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90E527D801BB00026FA7 /* HouseListRouter.swift */; };
+		046D90E827D801F500026FA7 /* HouseListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90E727D801F500026FA7 /* HouseListEntity.swift */; };
+		046D90EB27D8026700026FA7 /* HouseListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90EA27D8026700026FA7 /* HouseListConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		046D90C027D7FA1600026FA7 /* VIPERHarryPotterHouseListTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERHarryPotterHouseListTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046D90C327D7FA1600026FA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		046D90C527D7FA1600026FA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		046D90C727D7FA1600026FA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046D90C727D7FA1600026FA7 /* HouseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListView.swift; sourceTree = "<group>"; };
 		046D90CA27D7FA1600026FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		046D90CC27D7FA1800026FA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046D90CF27D7FA1800026FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046D90D127D7FA1800026FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046D90E127D8011B00026FA7 /* HouseListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListPresenter.swift; sourceTree = "<group>"; };
+		046D90E327D8017900026FA7 /* HouseListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListInteractor.swift; sourceTree = "<group>"; };
+		046D90E527D801BB00026FA7 /* HouseListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListRouter.swift; sourceTree = "<group>"; };
+		046D90E727D801F500026FA7 /* HouseListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListEntity.swift; sourceTree = "<group>"; };
+		046D90EA27D8026700026FA7 /* HouseListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,108 @@
 		046D90C227D7FA1600026FA7 /* VIPERHarryPotterHouseListTableView */ = {
 			isa = PBXGroup;
 			children = (
-				046D90C327D7FA1600026FA7 /* AppDelegate.swift */,
-				046D90C527D7FA1600026FA7 /* SceneDelegate.swift */,
-				046D90C727D7FA1600026FA7 /* ViewController.swift */,
-				046D90C927D7FA1600026FA7 /* Main.storyboard */,
-				046D90CC27D7FA1800026FA7 /* Assets.xcassets */,
-				046D90CE27D7FA1800026FA7 /* LaunchScreen.storyboard */,
-				046D90D127D7FA1800026FA7 /* Info.plist */,
+				046D90D827D7FC4200026FA7 /* Resources */,
+				046D90D727D7FC2C00026FA7 /* Source */,
 			);
 			path = VIPERHarryPotterHouseListTableView;
+			sourceTree = "<group>";
+		};
+		046D90D727D7FC2C00026FA7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				046D90D927D7FC5D00026FA7 /* App */,
+				046D90DA27D7FC6A00026FA7 /* Scene */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		046D90D827D7FC4200026FA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				046D90D127D7FA1800026FA7 /* Info.plist */,
+				046D90CE27D7FA1800026FA7 /* LaunchScreen.storyboard */,
+				046D90CC27D7FA1800026FA7 /* Assets.xcassets */,
+				046D90C927D7FA1600026FA7 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		046D90D927D7FC5D00026FA7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				046D90C527D7FA1600026FA7 /* SceneDelegate.swift */,
+				046D90C327D7FA1600026FA7 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		046D90DA27D7FC6A00026FA7 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				046D90E927D8024C00026FA7 /* Configurators */,
+				046D90DB27D7FCA100026FA7 /* HouseListModule */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		046D90DB27D7FCA100026FA7 /* HouseListModule */ = {
+			isa = PBXGroup;
+			children = (
+				046D90DC27D7FCBD00026FA7 /* View */,
+				046D90DD27D7FCC600026FA7 /* Presenter */,
+				046D90DE27D7FCDF00026FA7 /* Interactor */,
+				046D90DF27D7FCED00026FA7 /* Router */,
+				046D90E027D7FCF300026FA7 /* Entity */,
+			);
+			path = HouseListModule;
+			sourceTree = "<group>";
+		};
+		046D90DC27D7FCBD00026FA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				046D90C727D7FA1600026FA7 /* HouseListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		046D90DD27D7FCC600026FA7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				046D90E127D8011B00026FA7 /* HouseListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		046D90DE27D7FCDF00026FA7 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				046D90E327D8017900026FA7 /* HouseListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		046D90DF27D7FCED00026FA7 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				046D90E527D801BB00026FA7 /* HouseListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		046D90E027D7FCF300026FA7 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				046D90E727D801F500026FA7 /* HouseListEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		046D90E927D8024C00026FA7 /* Configurators */ = {
+			isa = PBXGroup;
+			children = (
+				046D90EA27D8026700026FA7 /* HouseListConfigurator.swift */,
+			);
+			path = Configurators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +241,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046D90C827D7FA1600026FA7 /* ViewController.swift in Sources */,
+				046D90C827D7FA1600026FA7 /* HouseListView.swift in Sources */,
+				046D90EB27D8026700026FA7 /* HouseListConfigurator.swift in Sources */,
 				046D90C427D7FA1600026FA7 /* AppDelegate.swift in Sources */,
+				046D90E427D8017900026FA7 /* HouseListInteractor.swift in Sources */,
+				046D90E627D801BB00026FA7 /* HouseListRouter.swift in Sources */,
+				046D90E827D801F500026FA7 /* HouseListEntity.swift in Sources */,
 				046D90C627D7FA1600026FA7 /* SceneDelegate.swift in Sources */,
+				046D90E227D8011B00026FA7 /* HouseListPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +399,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34TG2Y4HBL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VIPERHarryPotterHouseListTableView/Info.plist;
+				INFOPLIST_FILE = VIPERHarryPotterHouseListTableView/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,12 +427,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34TG2Y4HBL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VIPERHarryPotterHouseListTableView/Info.plist;
+				INFOPLIST_FILE = VIPERHarryPotterHouseListTableView/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
