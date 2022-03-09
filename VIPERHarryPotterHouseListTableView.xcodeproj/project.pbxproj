@@ -34,6 +34,7 @@
 		046D911827D89FFD00026FA7 /* StudentHufflepuffPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D911727D89FFD00026FA7 /* StudentHufflepuffPresenter.swift */; };
 		046D911B27D8A0AD00026FA7 /* StudentHufflepuffInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D911A27D8A0AD00026FA7 /* StudentHufflepuffInteractor.swift */; };
 		046D911E27D8A13500026FA7 /* StudentHufflepuffRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D911D27D8A13500026FA7 /* StudentHufflepuffRouter.swift */; };
+		046D912127D8A17000026FA7 /* StudentHufflepuffEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D912027D8A17000026FA7 /* StudentHufflepuffEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		046D911727D89FFD00026FA7 /* StudentHufflepuffPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHufflepuffPresenter.swift; sourceTree = "<group>"; };
 		046D911A27D8A0AD00026FA7 /* StudentHufflepuffInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHufflepuffInteractor.swift; sourceTree = "<group>"; };
 		046D911D27D8A13500026FA7 /* StudentHufflepuffRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHufflepuffRouter.swift; sourceTree = "<group>"; };
+		046D912027D8A17000026FA7 /* StudentHufflepuffEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHufflepuffEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,6 +316,7 @@
 		046D911227D89F2C00026FA7 /* StudentHufflepuffModule */ = {
 			isa = PBXGroup;
 			children = (
+				046D911F27D8A16000026FA7 /* Entity */,
 				046D911C27D8A12200026FA7 /* Router */,
 				046D911927D8A09300026FA7 /* Interactor */,
 				046D911627D89FDC00026FA7 /* Presenter */,
@@ -352,6 +355,14 @@
 				046D911D27D8A13500026FA7 /* StudentHufflepuffRouter.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		046D911F27D8A16000026FA7 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				046D912027D8A17000026FA7 /* StudentHufflepuffEntity.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,6 +441,7 @@
 				046D90EB27D8026700026FA7 /* HouseListConfigurator.swift in Sources */,
 				046D90FD27D8058D00026FA7 /* StudentSlytherinEntity.swift in Sources */,
 				046D911B27D8A0AD00026FA7 /* StudentHufflepuffInteractor.swift in Sources */,
+				046D912127D8A17000026FA7 /* StudentHufflepuffEntity.swift in Sources */,
 				046D90C427D7FA1600026FA7 /* AppDelegate.swift in Sources */,
 				046D90E427D8017900026FA7 /* HouseListInteractor.swift in Sources */,
 				046D910327D894AD00026FA7 /* StudentGryffindorView.swift in Sources */,
