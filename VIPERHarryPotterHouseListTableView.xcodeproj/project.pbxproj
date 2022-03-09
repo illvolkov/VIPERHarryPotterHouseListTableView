@@ -31,6 +31,7 @@
 		046D910F27D8968400026FA7 /* StudentGryffindorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D910E27D8968400026FA7 /* StudentGryffindorEntity.swift */; };
 		046D911127D896BF00026FA7 /* StudentGryffindorConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D911027D896BF00026FA7 /* StudentGryffindorConfigurator.swift */; };
 		046D911527D89FA400026FA7 /* StudentHufflepuffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D911427D89FA400026FA7 /* StudentHufflepuffView.swift */; };
+		046D911827D89FFD00026FA7 /* StudentHufflepuffPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D911727D89FFD00026FA7 /* StudentHufflepuffPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		046D910E27D8968400026FA7 /* StudentGryffindorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGryffindorEntity.swift; sourceTree = "<group>"; };
 		046D911027D896BF00026FA7 /* StudentGryffindorConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGryffindorConfigurator.swift; sourceTree = "<group>"; };
 		046D911427D89FA400026FA7 /* StudentHufflepuffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHufflepuffView.swift; sourceTree = "<group>"; };
+		046D911727D89FFD00026FA7 /* StudentHufflepuffPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHufflepuffPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -308,6 +310,7 @@
 		046D911227D89F2C00026FA7 /* StudentHufflepuffModule */ = {
 			isa = PBXGroup;
 			children = (
+				046D911627D89FDC00026FA7 /* Presenter */,
 				046D911327D89F8A00026FA7 /* View */,
 			);
 			path = StudentHufflepuffModule;
@@ -319,6 +322,14 @@
 				046D911427D89FA400026FA7 /* StudentHufflepuffView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		046D911627D89FDC00026FA7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				046D911727D89FFD00026FA7 /* StudentHufflepuffPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,6 +417,7 @@
 				046D911527D89FA400026FA7 /* StudentHufflepuffView.swift in Sources */,
 				046D90E827D801F500026FA7 /* HouseListEntity.swift in Sources */,
 				046D910F27D8968400026FA7 /* StudentGryffindorEntity.swift in Sources */,
+				046D911827D89FFD00026FA7 /* StudentHufflepuffPresenter.swift in Sources */,
 				046D90FF27D805E600026FA7 /* StudentSlytherinConfigurator.swift in Sources */,
 				046D90C627D7FA1600026FA7 /* SceneDelegate.swift in Sources */,
 				046D90F327D8045000026FA7 /* StudentSlytherinView.swift in Sources */,
