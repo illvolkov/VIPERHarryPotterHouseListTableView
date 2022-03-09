@@ -24,6 +24,7 @@
 		046D90FB27D8055900026FA7 /* StudentSlytherinRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90FA27D8055900026FA7 /* StudentSlytherinRouter.swift */; };
 		046D90FD27D8058D00026FA7 /* StudentSlytherinEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90FC27D8058D00026FA7 /* StudentSlytherinEntity.swift */; };
 		046D90FF27D805E600026FA7 /* StudentSlytherinConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D90FE27D805E600026FA7 /* StudentSlytherinConfigurator.swift */; };
+		046D910327D894AD00026FA7 /* StudentGryffindorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D910227D894AD00026FA7 /* StudentGryffindorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		046D90FA27D8055900026FA7 /* StudentSlytherinRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSlytherinRouter.swift; sourceTree = "<group>"; };
 		046D90FC27D8058D00026FA7 /* StudentSlytherinEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSlytherinEntity.swift; sourceTree = "<group>"; };
 		046D90FE27D805E600026FA7 /* StudentSlytherinConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSlytherinConfigurator.swift; sourceTree = "<group>"; };
+		046D910227D894AD00026FA7 /* StudentGryffindorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGryffindorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				046D90E927D8024C00026FA7 /* Configurators */,
 				046D90DB27D7FCA100026FA7 /* HouseListModule */,
 				046D90EC27D803C200026FA7 /* StudentSlytherinModule */,
+				046D910027D807A200026FA7 /* StudentGryffindorModule */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -236,6 +239,22 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
+		046D910027D807A200026FA7 /* StudentGryffindorModule */ = {
+			isa = PBXGroup;
+			children = (
+				046D910127D8949700026FA7 /* View */,
+			);
+			path = StudentGryffindorModule;
+			sourceTree = "<group>";
+		};
+		046D910127D8949700026FA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				046D910227D894AD00026FA7 /* StudentGryffindorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -313,6 +332,7 @@
 				046D90FD27D8058D00026FA7 /* StudentSlytherinEntity.swift in Sources */,
 				046D90C427D7FA1600026FA7 /* AppDelegate.swift in Sources */,
 				046D90E427D8017900026FA7 /* HouseListInteractor.swift in Sources */,
+				046D910327D894AD00026FA7 /* StudentGryffindorView.swift in Sources */,
 				046D90F927D8052100026FA7 /* StudentSlytherinInteractor.swift in Sources */,
 				046D90E627D801BB00026FA7 /* HouseListRouter.swift in Sources */,
 				046D90E827D801F500026FA7 /* HouseListEntity.swift in Sources */,
