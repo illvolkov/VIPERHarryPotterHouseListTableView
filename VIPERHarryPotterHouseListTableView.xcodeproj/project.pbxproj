@@ -29,6 +29,7 @@
 		046D910927D895EB00026FA7 /* StudentGryffindorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D910827D895EB00026FA7 /* StudentGryffindorInteractor.swift */; };
 		046D910C27D8963800026FA7 /* StudentGryffindorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D910B27D8963800026FA7 /* StudentGryffindorRouter.swift */; };
 		046D910F27D8968400026FA7 /* StudentGryffindorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D910E27D8968400026FA7 /* StudentGryffindorEntity.swift */; };
+		046D911127D896BF00026FA7 /* StudentGryffindorConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D911027D896BF00026FA7 /* StudentGryffindorConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		046D910827D895EB00026FA7 /* StudentGryffindorInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGryffindorInteractor.swift; sourceTree = "<group>"; };
 		046D910B27D8963800026FA7 /* StudentGryffindorRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGryffindorRouter.swift; sourceTree = "<group>"; };
 		046D910E27D8968400026FA7 /* StudentGryffindorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGryffindorEntity.swift; sourceTree = "<group>"; };
+		046D911027D896BF00026FA7 /* StudentGryffindorConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentGryffindorConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 			children = (
 				046D90EA27D8026700026FA7 /* HouseListConfigurator.swift */,
 				046D90FE27D805E600026FA7 /* StudentSlytherinConfigurator.swift */,
+				046D911027D896BF00026FA7 /* StudentGryffindorConfigurator.swift */,
 			);
 			path = Configurators;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				046D90F927D8052100026FA7 /* StudentSlytherinInteractor.swift in Sources */,
 				046D910627D8950000026FA7 /* StudentGryffindorPresenter.swift in Sources */,
 				046D90E627D801BB00026FA7 /* HouseListRouter.swift in Sources */,
+				046D911127D896BF00026FA7 /* StudentGryffindorConfigurator.swift in Sources */,
 				046D90E827D801F500026FA7 /* HouseListEntity.swift in Sources */,
 				046D910F27D8968400026FA7 /* StudentGryffindorEntity.swift in Sources */,
 				046D90FF27D805E600026FA7 /* StudentSlytherinConfigurator.swift in Sources */,
