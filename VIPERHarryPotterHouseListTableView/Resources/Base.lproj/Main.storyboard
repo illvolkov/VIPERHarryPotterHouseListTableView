@@ -19,10 +19,29 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="evS-CI-YdM"/>
+                    <connections>
+                        <segue destination="eOx-tg-1O5" kind="show" identifier="HouseToSlytherinList" id="41g-Hu-SLQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="944.92753623188412" y="97.767857142857139"/>
+        </scene>
+        <!--Student Slytherin View-->
+        <scene sceneID="9Vk-8E-fjf">
+            <objects>
+                <viewController id="eOx-tg-1O5" customClass="StudentSlytherinView" customModule="VIPERHarryPotterHouseListTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wva-uQ-Cus">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ckw-1m-XVD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="IT4-mr-KdL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aaz-1y-xdm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-683" y="964"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="A5x-KS-cv2">
