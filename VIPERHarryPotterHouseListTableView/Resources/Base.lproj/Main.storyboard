@@ -22,6 +22,7 @@
                     <connections>
                         <segue destination="eOx-tg-1O5" kind="show" identifier="HouseToSlytherinList" id="41g-Hu-SLQ"/>
                         <segue destination="Oz2-Ez-ZSe" kind="show" identifier="HouseToGryffindorList" id="07T-em-mBU"/>
+                        <segue destination="DB0-Oe-zSd" kind="show" identifier="HouseToHufflepuffList" id="qVA-Ud-Jk6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -59,6 +60,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VeH-wc-Sj0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="392" y="966"/>
+        </scene>
+        <!--Student Hufflepuff View-->
+        <scene sceneID="tAG-6r-pQD">
+            <objects>
+                <viewController id="DB0-Oe-zSd" customClass="StudentHufflepuffView" customModule="VIPERHarryPotterHouseListTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dey-xF-OUM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Mus-En-AJM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AZO-eD-xT7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MhP-UB-YcK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1472" y="966"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="A5x-KS-cv2">
