@@ -21,11 +21,12 @@
                     <navigationItem key="navigationItem" id="evS-CI-YdM"/>
                     <connections>
                         <segue destination="eOx-tg-1O5" kind="show" identifier="HouseToSlytherinList" id="41g-Hu-SLQ"/>
+                        <segue destination="Oz2-Ez-ZSe" kind="show" identifier="HouseToGryffindorList" id="07T-em-mBU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="944.92753623188412" y="97.767857142857139"/>
+            <point key="canvasLocation" x="1022" y="98"/>
         </scene>
         <!--Student Slytherin View-->
         <scene sceneID="9Vk-8E-fjf">
@@ -42,6 +43,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aaz-1y-xdm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-683" y="964"/>
+        </scene>
+        <!--Student Gryffindor View-->
+        <scene sceneID="Laq-3z-tIz">
+            <objects>
+                <viewController id="Oz2-Ez-ZSe" customClass="StudentGryffindorView" customModule="VIPERHarryPotterHouseListTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k9X-wn-aOq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Fc9-ha-ode"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2nJ-iK-YLY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VeH-wc-Sj0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="392" y="966"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="A5x-KS-cv2">
