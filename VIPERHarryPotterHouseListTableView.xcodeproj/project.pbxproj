@@ -281,11 +281,11 @@
 		046D910027D807A200026FA7 /* StudentGryffindorModule */ = {
 			isa = PBXGroup;
 			children = (
-				046D910D27D8966B00026FA7 /* Entity */,
-				046D910A27D8962B00026FA7 /* Router */,
-				046D910727D895D400026FA7 /* Interactor */,
-				046D910427D894EC00026FA7 /* Presenter */,
 				046D910127D8949700026FA7 /* View */,
+				046D910427D894EC00026FA7 /* Presenter */,
+				046D910727D895D400026FA7 /* Interactor */,
+				046D910A27D8962B00026FA7 /* Router */,
+				046D910D27D8966B00026FA7 /* Entity */,
 			);
 			path = StudentGryffindorModule;
 			sourceTree = "<group>";
@@ -333,11 +333,11 @@
 		046D911227D89F2C00026FA7 /* StudentHufflepuffModule */ = {
 			isa = PBXGroup;
 			children = (
-				046D911F27D8A16000026FA7 /* Entity */,
-				046D911C27D8A12200026FA7 /* Router */,
-				046D911927D8A09300026FA7 /* Interactor */,
-				046D911627D89FDC00026FA7 /* Presenter */,
 				046D911327D89F8A00026FA7 /* View */,
+				046D911627D89FDC00026FA7 /* Presenter */,
+				046D911927D8A09300026FA7 /* Interactor */,
+				046D911C27D8A12200026FA7 /* Router */,
+				046D911F27D8A16000026FA7 /* Entity */,
 			);
 			path = StudentHufflepuffModule;
 			sourceTree = "<group>";
@@ -385,11 +385,11 @@
 		046D912427D8A28300026FA7 /* StudentRavenclawModule */ = {
 			isa = PBXGroup;
 			children = (
-				046D913127D8A38E00026FA7 /* Entity */,
-				046D912E27D8A35C00026FA7 /* Router */,
-				046D912B27D8A32400026FA7 /* Interactor */,
-				046D912827D8A2E800026FA7 /* Presenter */,
 				046D912527D8A2B700026FA7 /* View */,
+				046D912827D8A2E800026FA7 /* Presenter */,
+				046D912B27D8A32400026FA7 /* Interactor */,
+				046D912E27D8A35C00026FA7 /* Router */,
+				046D913127D8A38E00026FA7 /* Entity */,
 			);
 			path = StudentRavenclawModule;
 			sourceTree = "<group>";
